@@ -1,0 +1,17 @@
+
+name: First
+
+on: push
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Display
+        run: echo 'Welcome'
+
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Display
+        run: echo 'Training'
